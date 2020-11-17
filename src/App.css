@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.message {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: 'n n' 'text time';
+    grid-gap: 1px;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background: #001e23;
+    color: #fff;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Tahoma, sans-serif, Arial, Helvetica;
+    position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #001e23;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid #001e23;
+    left: -16px;
+    bottom: 0;
+}
+
+.friendName {
+    grid-area: n;
+    text-align: left;
+    font-size: 18px;
+    color: #6b13ff;
+}
+
+.textMessage {
+    grid-area: text;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.timeMessage {
+    grid-area: time;
+    text-align: right;
+    font-size: 10px;
+    color: #747272;
 }

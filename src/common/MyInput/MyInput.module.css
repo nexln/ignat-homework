@@ -1,0 +1,16 @@
+.txt {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: #ffffff !important;
+    outline: none;
+    height: 24px;
+    width: 120px;
+    color: #cccccc;
+    font-size: 11px;
+    font-family: Tahoma;
+}
+
+.txt:focus {
+    color: #000000;
+    border: 1px solid #00A7FF
+}
