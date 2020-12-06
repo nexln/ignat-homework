@@ -32,7 +32,7 @@ export const ThirdHomework = (props: PropsType) => {
         setTitle(e.currentTarget.value)
     };
     return (
-        <div>
+        <div className='thirdHomework'>
             <MyInput type="text" placeholder={'Введите имя'} value={title}
                    onChange={onChangeFieldText} onKeyDown={onKeyPressAddTask}/>
             <MyButton onClick={sayHello} title={'Press here'}/>
@@ -43,10 +43,8 @@ export const ThirdHomework = (props: PropsType) => {
                 props.names.map(newNames => {
                     return (
                         <div>
-
                             <span>{newNames.name}</span>
                         </div>
-
                     )
                 })
             }

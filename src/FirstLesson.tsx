@@ -9,7 +9,7 @@ type PropsType = {
 
 export const FirstHomework = (props: PropsType) => {
     return (
-        <div>
+        <div className='messageContainer'>
             {
                 props.message.map(newMessages => {
                     return (

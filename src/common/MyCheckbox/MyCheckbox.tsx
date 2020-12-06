@@ -8,8 +8,6 @@ type PropsType = {
 }
 export const MyCheckbox = (props: PropsType) => {
     return (
-        <div>
             <input type={props.type} className={s.checkbox} onChange={props.onChange} checked={props.checked}/>
-        </div>
     )
 };

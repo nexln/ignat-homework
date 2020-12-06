@@ -1,6 +1,26 @@
+body {
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(19, 19, 19), rgb(39, 39, 39), rgb(58, 58, 58), rgb(78, 78, 78), rgb(97, 97, 97), rgb(123, 81, 81), rgb(150, 65, 65), rgb(176, 49, 49), rgb(202, 32, 32), rgb(229, 16, 16), rgb(255, 0, 0)) fixed;
+}
+
 .App {
-  padding: 30px;
-  display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'message secondHomework thirdHomework comp'
+}
+
+.messageContainer {
+    grid-area: message;
+    padding: 0 10px 0 20px;
+}
+
+.secondHomework {
+    grid-area: secondHomework;
+}
+.customComponent {
+    grid-area: comp;
+}
+.thirdHomework {
+    grid-area: thirdHomework;
 }
 
 .message {

@@ -1,5 +1,4 @@
 import React, {ChangeEvent} from "react";
-import './App.css';
 import {TaskType} from "./App";
 import {MyButton} from "./common/MyButton/MyButton";
 import {MyCheckbox} from "./common/MyCheckbox/MyCheckbox";
@@ -14,7 +13,7 @@ export const SecondHomework = (props: PropsType) => {
 
 
     return (
-        <div>
+        <div className='secondHomework'>
 <ul>
     {
         props.tasks.map(t => {
