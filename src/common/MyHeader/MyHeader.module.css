@@ -1,25 +1,3 @@
-/*.header {*/
-/*    display: grid;*/
-/*    grid-area: header;*/
-/*    grid-template-columns: repeat(4, 200px);*/
-/*    background-color: firebrick;*/
-/*    width: 100%;*/
-/*    height: 30px;*/
-/*    grid-template-areas: 'block1 block2 block3 block4';*/
-/*}*/
-/*.headerBlock1 {*/
-/*grid-area: block1*/
-/*}*/
-/*.headerBlock2 {*/
-/*grid-area: block2*/
-/*}*/
-/*.headerBlock3 {*/
-/*grid-area: block3*/
-/*}*/
-/*.headerBlock4 {*/
-/*grid-area: block4*/
-/*}*/
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -31,6 +9,7 @@
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
+    clip-path: polygon(0 0, 100% 0%, 36% 100%, 0% 100%);
 }
 
 .sidenav a {
