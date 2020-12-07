@@ -13,10 +13,13 @@ export const FirstHomework = (props: PropsType) => {
             {
                 props.message.map(newMessages => {
                     return (
+                        <div className='container'>
+                        <div className='avatar' style={{backgroundImage: `url(${newMessages.avatarImg})`}} />
                         <div className='message'>
                             <div className='friendName'>{newMessages.name}</div>
                             <div className='textMessage'>{newMessages.text}</div>
                             <div className='timeMessage'>{newMessages.time}</div>
+                        </div>
                         </div>
                     )
                 })

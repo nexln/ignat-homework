@@ -9,8 +9,10 @@ body {
 }
 
 .messageContainer {
+    display: grid;
     grid-area: message;
-    padding: 0 10px 0 20px;
+    padding: 20px 10px 0 80px;
+    grid-row-gap: 30px;
 }
 
 .secondHomework {
@@ -25,12 +27,13 @@ body {
 
 .message {
     display: grid;
+    grid-area: mesCont;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 2fr;
     grid-template-areas: 'n n' 'text time';
     grid-gap: 1px;
     width: 300px;
-    margin: 50px auto;
+    /*margin: 50px auto;*/
     border-radius: 15px;
     background: #001e23;
     color: #fff;
@@ -52,6 +55,24 @@ body {
     border-bottom: 15px solid #001e23;
     left: -16px;
     bottom: 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    grid-area: ava;
+    bottom: 0;
+    position: absolute;
+    left: -70px;
+    background-size: 50px;
+}
+
+.container {
+    /*display: grid;*/
+    /*grid-template-columns: 30px 1fr;*/
+    /*grid-template-areas: 'ava mesCount';*/
+    position: relative;
 }
 
 .friendName {
