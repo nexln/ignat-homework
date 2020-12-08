@@ -10,9 +10,9 @@ export const MyHeader = (props: PropsType) => {
 
             <div id={s.mySidenav} className={s.sidenav} style={{width: props.widthNav}}>
                 <a href="javascript:void(0)" className={s.closeBtn} onClick={props.onClose}>&times;</a>
-                <a href="#">Pre-junior</a>
-                <a href="#">Junior</a>
-                <a href="#">Middle</a>
+                <a href="/pre-junior">Pre-junior</a>
+                <a href="/junior">Junior</a>
+                <a href="/middle">Middle</a>
             </div>
 
     )

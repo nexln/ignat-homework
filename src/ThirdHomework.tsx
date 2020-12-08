@@ -1,5 +1,5 @@
 import React, {useState, KeyboardEvent, ChangeEvent} from "react";
-import {NameType} from "./App";
+import {NameType} from "./common/Pages/PreJunPage/PreJuniorTasks";
 import {MyInput} from "./common/MyInput/MyInput";
 import {MyButton} from "./common/MyButton/MyButton";
 
@@ -34,7 +34,7 @@ export const ThirdHomework = (props: PropsType) => {
     return (
         <div className='thirdHomework'>
             <MyInput type="text" placeholder={'Введите имя'} value={title}
-                   onChange={onChangeFieldText} onKeyDown={onKeyPressAddTask}/>
+                     onChange={onChangeFieldText} onKeyDown={onKeyPressAddTask}/>
             <MyButton onClick={sayHello} title={'Press here'}/>
             <div>
                 <span>Count of names {props.names.length}</span>

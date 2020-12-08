@@ -1,0 +1,9 @@
+.contentContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'message secondHomework thirdHomework comp'
+}
+.customComponent {
+    grid-area: comp;
+}
+

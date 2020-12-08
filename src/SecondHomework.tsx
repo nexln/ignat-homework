@@ -1,7 +1,7 @@
 import React, {ChangeEvent} from "react";
-import {TaskType} from "./App";
 import {MyButton} from "./common/MyButton/MyButton";
 import {MyCheckbox} from "./common/MyCheckbox/MyCheckbox";
+import {TaskType} from "./common/Pages/PreJunPage/PreJuniorTasks";
 
 type PropsType = {
     tasks: Array<TaskType>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {MessageType} from "./App";
+import {MessageType} from "./common/Pages/PreJunPage/PreJuniorTasks";
 
 type PropsType = {
     message: Array<MessageType>
