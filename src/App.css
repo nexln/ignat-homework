@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(19, 19, 19), rgb(39, 39, 39), rgb(58, 58, 58), rgb(78, 78, 78), rgb(97, 97, 97), rgb(123, 81, 81), rgb(150, 65, 65), rgb(176, 49, 49), rgb(202, 32, 32), rgb(229, 16, 16), rgb(255, 0, 0)) fixed;
+    background: rgb(255,59,0);
+    background: linear-gradient(140deg, rgba(255,59,0,1) 0%, rgba(0,0,0,1) 80%) fixed;
 }
 
 /*.App {*/

@@ -9,8 +9,6 @@ import {MyButton} from "../../MyButton/MyButton";
 import s from "./PreJuniorTasks.module.css"
 
 
-// спросить на саппорте про типы router и почему он сам не подтягивает их да и вообще какого хера
-
 export type MessageType = {
     name: string
     text: string
@@ -32,9 +30,24 @@ export type NameType = {
 export function PreJunior() {
 
     const messages = [
-        {name: 'Artem', text: 'Privet', time: '20:00', avatarImg: 'https://i.pinimg.com/564x/f2/c6/51/f2c6512288f5065b652879a8d22f49c3.jpg'},
-        {name: 'Lena', text: 'Kak dela', time: '20:01', avatarImg: 'https://i.pinimg.com/564x/72/43/cc/7243ccdc44fec5e96a09843257299e9c.jpg'},
-        {name: 'Anton', text: 'It-incubator', time: '20:02', avatarImg: 'https://i.pinimg.com/564x/17/a6/aa/17a6aa09f19636772b90f0d98d70e2a3.jpg'},
+        {
+            name: 'Artem',
+            text: 'Privet',
+            time: '20:00',
+            avatarImg: 'https://i.pinimg.com/564x/f2/c6/51/f2c6512288f5065b652879a8d22f49c3.jpg'
+        },
+        {
+            name: 'Lena',
+            text: 'Kak dela',
+            time: '20:01',
+            avatarImg: 'https://i.pinimg.com/564x/72/43/cc/7243ccdc44fec5e96a09843257299e9c.jpg'
+        },
+        {
+            name: 'Anton',
+            text: 'It-incubator',
+            time: '20:02',
+            avatarImg: 'https://i.pinimg.com/564x/17/a6/aa/17a6aa09f19636772b90f0d98d70e2a3.jpg'
+        },
     ];
 
     const [tasks, setTasks] = useState<Array<TaskType>>([
@@ -55,7 +68,7 @@ export function PreJunior() {
     }
 
     function sayHello(name: string) {
-        const newN: NameType =  {id: v1(), name: name};
+        const newN: NameType = {id: v1(), name: name};
         newName([newN, ...nam])
     }
 

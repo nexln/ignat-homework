@@ -9,7 +9,7 @@
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
-    clip-path: polygon(0 0, 100% 0%, 36% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 20% 100%, 0% 100%);
 }
 
 .sidenav a {
