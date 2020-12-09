@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ignat-homework/static/css/main.04a09cb9.chunk.css",
-    "main.js": "/ignat-homework/static/js/main.b7322a20.chunk.js",
-    "main.js.map": "/ignat-homework/static/js/main.b7322a20.chunk.js.map",
-    "runtime-main.js": "/ignat-homework/static/js/runtime-main.dd20c79f.js",
-    "runtime-main.js.map": "/ignat-homework/static/js/runtime-main.dd20c79f.js.map",
-    "static/js/2.dbfc511e.chunk.js": "/ignat-homework/static/js/2.dbfc511e.chunk.js",
-    "static/js/2.dbfc511e.chunk.js.map": "/ignat-homework/static/js/2.dbfc511e.chunk.js.map",
-    "static/js/3.26a85273.chunk.js": "/ignat-homework/static/js/3.26a85273.chunk.js",
-    "static/js/3.26a85273.chunk.js.map": "/ignat-homework/static/js/3.26a85273.chunk.js.map",
+    "main.css": "/ignat-homework/static/css/main.a17bf3eb.chunk.css",
+    "main.js": "/ignat-homework/static/js/main.fbc12b96.chunk.js",
+    "main.js.map": "/ignat-homework/static/js/main.fbc12b96.chunk.js.map",
+    "runtime-main.js": "/ignat-homework/static/js/runtime-main.fa8423d9.js",
+    "runtime-main.js.map": "/ignat-homework/static/js/runtime-main.fa8423d9.js.map",
+    "static/js/2.6875a988.chunk.js": "/ignat-homework/static/js/2.6875a988.chunk.js",
+    "static/js/2.6875a988.chunk.js.map": "/ignat-homework/static/js/2.6875a988.chunk.js.map",
+    "static/js/3.9dfae023.chunk.js": "/ignat-homework/static/js/3.9dfae023.chunk.js",
+    "static/js/3.9dfae023.chunk.js.map": "/ignat-homework/static/js/3.9dfae023.chunk.js.map",
     "index.html": "/ignat-homework/index.html",
-    "static/css/main.04a09cb9.chunk.css.map": "/ignat-homework/static/css/main.04a09cb9.chunk.css.map",
-    "static/js/2.dbfc511e.chunk.js.LICENSE.txt": "/ignat-homework/static/js/2.dbfc511e.chunk.js.LICENSE.txt"
+    "static/css/main.a17bf3eb.chunk.css.map": "/ignat-homework/static/css/main.a17bf3eb.chunk.css.map",
+    "static/js/2.6875a988.chunk.js.LICENSE.txt": "/ignat-homework/static/js/2.6875a988.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd20c79f.js",
-    "static/js/2.dbfc511e.chunk.js",
-    "static/css/main.04a09cb9.chunk.css",
-    "static/js/main.b7322a20.chunk.js"
+    "static/js/runtime-main.fa8423d9.js",
+    "static/js/2.6875a988.chunk.js",
+    "static/css/main.a17bf3eb.chunk.css",
+    "static/js/main.fbc12b96.chunk.js"
   ]
 }
