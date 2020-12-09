@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import {MyHeader} from "./common/MyHeader/MyHeader";
 import {Route} from "react-router";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import {PreJunior} from "./common/Pages/PreJunPage/PreJuniorTasks";
 import {Junior} from "./common/Pages/JunPage/JuniorTasks";
 
@@ -46,14 +46,14 @@ function App() {
 
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="App">
                 <MyHeader onClose={closeNavBar} widthNav={width}/>
-                <Route exact path='/pre-junior' component={PreJunior}/>
+                <Route path='/pre-junior' component={PreJunior}/>
                 <Route path='/junior' component={Junior}/>
                 <Route path='/middle'/>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
