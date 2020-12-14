@@ -1,12 +1,16 @@
 .contentContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
-    grid-template-areas: 'editSpan customSel' ;
+    grid-template-areas: 'editSpan customSel testReducer' ;
+    margin-left: 30px;
 }
 .editSpan {
     grid-area: editSpan;
 }
 .customSel {
     grid-area: customSel;
+}
+.reduc {
+    grid-area: testReducer;
 }

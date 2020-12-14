@@ -7,8 +7,6 @@ import {PreJunior} from "./common/Pages/PreJunPage/PreJuniorTasks";
 import {Junior} from "./common/Pages/JunPage/JuniorTasks";
 
 
-// спросить на саппорте про типы router и почему он сам не подтягивает их
-
 
 function App() {
 
