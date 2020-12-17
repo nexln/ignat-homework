@@ -5,6 +5,7 @@ import {Route} from "react-router";
 import {HashRouter} from "react-router-dom";
 import {PreJunior} from "./common/Pages/PreJunPage/PreJuniorTasks";
 import {Junior} from "./common/Pages/JunPage/JuniorTasks";
+import {ClockPage} from "./common/Pages/Clock/ClockPage";
 
 
 
@@ -18,8 +19,8 @@ function App() {
         setWidth(zeroWidth)
     }
     const openNavBar = () => {
-        const zeroWidth = '250px';
-        setWidth(zeroWidth)
+        const openWidth = '250px';
+        setWidth(openWidth)
     }
 
     const checkCursorPosition = (e: MouseEvent) => {
@@ -50,6 +51,7 @@ function App() {
                 <Route path='/pre-junior' component={PreJunior}/>
                 <Route path='/junior' component={Junior}/>
                 <Route path='/middle'/>
+                <Route path='/clock' component={ClockPage}/>
             </div>
         </HashRouter>
     );

@@ -14,6 +14,7 @@ export const MyHeader = (props: PropsType) => {
             <NavLink to={'/pre-junior'}>Pre-junior</NavLink>
             <NavLink to={'/junior'}>Junior</NavLink>
             <NavLink to={'/middle'}>Middle</NavLink>
+            <NavLink to={'/clock'}>Clock</NavLink>
         </div>
     )
 };
