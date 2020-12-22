@@ -1,0 +1,9 @@
+.loader_block {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    color: white;
+}

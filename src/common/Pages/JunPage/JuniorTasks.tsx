@@ -5,6 +5,7 @@ import {EditableSpan} from "../../EditableSpan/EditableSpan";
 import {MyButton} from "../../MyButton/MyButton";
 import HW7 from "../../../h7/HW7";
 import HW8 from "../../../h8/HW8";
+import {HW10} from "../../../h10/HW10";
 
 
 export function Junior() {
@@ -39,6 +40,9 @@ export function Junior() {
             </div>
             <div className={s.reduc}>
                 <HW8/>
+            </div>
+            <div className={s.preload}>
+                <HW10/>
             </div>
         </div>
 
